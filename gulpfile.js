@@ -2,9 +2,6 @@ var gulp = require('gulp');
 
 // Load the packages
 var sass = require('gulp-ruby-sass');
-var autoprefixer = require('gulp-autoprefixer');
-var minifycss = require('gulp-minify-css');
-var uglify = require('gulp-uglifyjs');
 var $ = require('gulp-load-plugins')();
 
 // Let's create our styles task
