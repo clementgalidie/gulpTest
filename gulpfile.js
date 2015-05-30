@@ -45,7 +45,7 @@ gulp.task('connect', function () {
   // Create the server 
   require('http').createServer(app)
     .listen(9000)
-    .on('listening' function () {
+    .on('listening', function () {
       console.log('Started the connect of web server on http://localhost:9000');
     });
 });
@@ -68,4 +68,4 @@ var server = $.livereload();
   ]).on('change', function (file) {
     server.changed(file.path)
   });
-
+});
