@@ -1,3 +1,7 @@
+$main-background-color: #000;
+$main-color: #fff;
+$main-font-stack: 'Helvetica', 'Arial', sans-serif;
+
 html {
   height: 100%;
 }
@@ -5,4 +9,8 @@ html {
 body {
   height: 100%;
   margin: 0;
+  // background-color: $main-background-color;
+  // color: $main-color;
+  // font-family: $main-font-stack;
+  // font-size: 1rem;
 }
